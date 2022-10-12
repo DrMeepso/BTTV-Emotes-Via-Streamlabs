@@ -1,4 +1,4 @@
-# BTTV-Emotes-Via-Streamlabs
+# BTTV Emotes For Streamlabs
 ### Adds better Twitch.TV emotes to the chat box within Streamlabs!
 
 
