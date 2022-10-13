@@ -7,7 +7,7 @@ Place the code form within Index.js into the custom javascript box at the bottom
 
 Make sure that you have "Enable Custom HTML/CSS" set to Enabled
 
-Then select JS and place the code from [index.js](https://github.com/DrMeepso/BTTV-Emotes-Via-Streamlabs/blob/main/index.js) into the text box
+Then select JS and place the code from [loader.js](https://github.com/DrMeepso/BTTV-Emotes-Via-Streamlabs/blob/main/loader.js) into the text box
 
 You now need to find the Twitch Channel ID linked to your BTTV account (even if you use youtube BTTV stores your emotes under your twitch id) then replace ```const UserID = 219012725``` with ```const UserID = <Your Twitch ID>```. 
 
@@ -15,7 +15,7 @@ You can find a website to help you find your Twitch ID [Here](https://www.stream
 
 Then hit Save Settings and it should now reload any open chat widgets and it should now show any BTTV emotes you have added to your channel
 #### What is should look like if install correctly 
-![image](https://user-images.githubusercontent.com/50252724/195422333-34267aee-c602-4b6b-857c-5936d082a7fe.png)
+![What it should look like](https://user-images.githubusercontent.com/50252724/195716642-cf2b2cf9-6edb-4c43-a832-eb5925f297ce.png)
 
 
 ## Todo
