@@ -23,7 +23,7 @@ fetch(`https://api.betterttv.net/3/cached/emotes/global`)
 document.addEventListener('onEventReceived', function(obj) {
   	var messages = Object.values(document.getElementsByClassName("message"))
     messages.forEach(object => {
-      ChannelEmotes.forEach(emote => {
+      ChannelEmotes.sort((a,b) => b.code.length - a.code.length).forEach(emote => {
         object.innerHTML = object.innerHTML.replaceAll(emote.code, `<span class="emote" style="background-image: url(https://cdn.betterttv.net/emote/${emote.id}/3x);"><img src="https://cdn.betterttv.net/emote/${emote.id}/3x"></span>`)
       	object.className = "messageBTTV"
       })
