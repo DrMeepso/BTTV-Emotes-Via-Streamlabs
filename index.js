@@ -1,4 +1,4 @@
-const UserID = 219012725 // Your twitch channel ID that is linked to your BTTV account
+const UserID = <TwitchID> // Your twitch channel ID that is linked to your BTTV account
 var ChannelEmotes = [] // this dosnt need to be changed but dont remove it
 
 fetch(`https://api.betterttv.net/3/cached/users/twitch/${UserID}`)
