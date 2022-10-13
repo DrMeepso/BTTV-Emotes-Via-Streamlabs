@@ -9,7 +9,7 @@ Make sure that you have "Enable Custom HTML/CSS" set to Enabled
 
 Then select JS and place the code from [loader.js](https://github.com/DrMeepso/BTTV-Emotes-Via-Streamlabs/blob/main/loader.js) into the text box
 
-You now need to find the Twitch Channel ID linked to your BTTV account (even if you use youtube BTTV stores your emotes under your twitch id) then replace ```const UserID = 219012725``` with ```const UserID = <Your Twitch ID>```. 
+You now need to find the Twitch Channel ID linked to your BTTV account (even if you use youtube BTTV stores your emotes under your twitch id) then replace ```const TwitchID = 219012725``` with ```const TwitchID = <Your Twitch ID>```. 
 
 You can find a website to help you find your Twitch ID [Here](https://www.streamweasels.com/tools/convert-twitch-username-to-user-id/)
 
