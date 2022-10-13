@@ -21,4 +21,4 @@ Then hit Save Settings and it should now reload any open chat widgets and it sho
 ## Todo
 - [X] Better TTV Emotes
 - [ ] FrankerFaceZ Emotes
-- [ ] Add emote reloading
+- [X] Add emote reloading
