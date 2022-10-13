@@ -3,7 +3,7 @@
 
 
 ## How to Install
-Place the code form within Index.js into the custom javascript box at the bottom of the [chat box options page](https://streamlabs.com/dashboard#/chatbox).
+Place the code form within Loader.js into the custom javascript box at the bottom of the [chat box options page](https://streamlabs.com/dashboard#/chatbox).
 
 Make sure that you have "Enable Custom HTML/CSS" set to Enabled
 
